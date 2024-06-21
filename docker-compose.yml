@@ -1,0 +1,7 @@
+services:
+  mongodb:
+    image: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME:
+      MONGO_INITDB_ROOT_PASSWORD:
